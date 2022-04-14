@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+</style>
+</head>
+<body>
+
+<h2>Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+<table>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="autor" content="José Vinicíus Machado Martines">
+        <meta name="description" content="Formulário de opinião">
+        <meta name="keywords" content="formularios">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <form action="enviar_dados.php" method="get"> </form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="name">Seu nome: </label>
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p>
+                <label for="name">Seu Telefone: </label>
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p>
+            <p>
+                <label for="email">Seu E-mail: </label>
+                <input type="text" name="email" id="imail">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Formulário de opinião</legend>
+            <strong>Deseja receber nossas novidades?</strong>
+            <dl>
+                <dd>
+                <input type="radio" name="avaliacoes" value="Não">Não
+                <input type="radio" name="avaliacoes" value="Sim">Sim          
+                </dd>
+            </dl>
+            <p>
+                <strong>Digite seus comentários no campo abaixo</strong>
+                </p><dl>
+                    <dd>
+                        <textarea name="comentários" cols="42" rows="5"></textarea>
+                    </dd>
+                </dl>
+                <p></p>
+                <p>
+                </p><dl>
+                    <dd>
+                        <input type="checkbox" name="novidades" value="nov">Quero receber novidades do
+                        site por e-mail.
+                    </dd>
+                </dl>
+                <p></p>
+                <p>
+                </p><dl>
+                    <dd>
+                        <input type="submit" value="Enviar dados">
+                        <input type="reset" value="Limpar formulário">
+                    </dd>
+                </dl>
+                <p></p>
+        </fieldset>
+
+        
+    </body
+></html>
